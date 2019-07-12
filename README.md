@@ -13,12 +13,12 @@ Write the ```.proto``` files in the /proto directory.
 To use the generated stub and client code:
 - go
 ```
-go get -u github.com/naponmeka/grpcspec-example
+go get -u github.com/redcranetech/grpcspec-example
 
 ```
 - python
 ```
-pip install -e git+https://github.com/naponmeka/grpcspec-example.git#egg=pygrpcspec
+pip install -e git+https://github.com/redcranetech/grpcspec-example.git#egg=pygrpcspec
 ```
 
 ## Initialize project (setup git hook)
@@ -32,6 +32,6 @@ make generate
 
 ## Examples
 
-Go: [go to this repo](https://github.com/naponmeka/grpc-go-examples)
+Go: [go to this repo](https://github.com/redcranetech/grpc-go-example)
 
-Python: [go to this repo](https://github.com/naponmeka/grpc-python-examples)
+Python: [go to this repo](https://github.com/redcranetech/grpc-python-example)
